@@ -1,6 +1,9 @@
 html,
 body {
   height: 100%;
+  background: #7f7fd5;
+  background: -webkit-linear-gradient(to right, #91eae4, #86a8e7, #7f7fd5);
+  background: linear-gradient(to right, #91eae4, #86a8e7, #7f7fd5);
 }
 
 body {
@@ -8,7 +11,8 @@ body {
   align-items: center;
   padding-top: 40px;
   padding-bottom: 40px;
-  background-color: #f5f5f5;
+  /* background-color: #f5f5f5; */
+  /* background-image: url("./bg.svg"); */
 }
 
 .form-signin {
@@ -31,13 +35,13 @@ body {
   z-index: 2;
 }
 .top {
-  margin-bottom: -1px;
+  margin-bottom: 5px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
 .middle {
   border-radius: 0;
-  margin-bottom: -1px;
+  margin-bottom: 5px;
 }
 .bottom {
   margin-bottom: 10px;
@@ -48,4 +52,22 @@ body {
 img {
   width: 6rem;
   height: 6rem;
+}
+
+h1 {
+  color: white;
+}
+
+span {
+  color: #6c63ff;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+form {
+  background-color: rgb(228, 228, 228);
+  width: 120%;
+  padding: 10% 20% 1%;
+  border-radius: 10%;
+  opacity: 0.9;
 }
