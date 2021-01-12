@@ -70,4 +70,9 @@ form {
   padding: 10% 20% 1%;
   border-radius: 10%;
   opacity: 0.9;
+  box-shadow: 2px 2px #6c63ff;
+}
+form:hover {
+  box-shadow: 4px 4px #6c63ff;
+  transition-duration: 0.2s;
 }
